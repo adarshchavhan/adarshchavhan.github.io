@@ -193,7 +193,7 @@ footer{
       padding: 10px;
       line-height: 30px;
    }
-   .projects .project-img{
+   .projects .inner .project-img{
       width: 100%;
       margin: 0;
    }
@@ -205,4 +205,9 @@ footer{
    .projects h6{
       font-weight: 600;
    }
+}
+.inner{
+   opacity: 0;
+   transition: 1s ease;
+   transition-delay: .2s;
 }
